@@ -1,0 +1,211 @@
+/* .navbar-brand>img {
+  border-radius: 20%;
+  width: 150px !important;
+}
+
+.pricing-img::before {
+  left: 60%;
+  top: 65% !important;
+}
+
+.about-section .section-title span {
+  margin-top: 0;
+}
+
+.fun-fact-content h2 {
+  font-size: 2rem;
+}
+
+
+
+.nav-tabs {
+  margin: 40px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav-tabs li {
+  width: 150px;
+}
+
+.hero row {
+  padding: 50px 0px;
+}
+
+header {}
+
+#breadcum {
+  margin-top: 150px;
+}
+
+.service-page-style {
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-page-style {
+    margin-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand>img {
+    border-radius: 20%;
+    width: 70px !important;
+  }
+
+  .nav-tabs li {
+    width: 50%;
+  }
+
+  .hx-team-img img {
+    width: 50%;
+  }
+
+  .hx-team-img {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .pricing-img::before {
+    text-align: center;
+    top: 85% !important;
+  }
+
+  .pricing-img img {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  .image-center {
+    margin: 0 auto;
+  }
+
+  .section-padding {
+    padding: 30px;
+  }
+
+  .fun-fact-content {
+    padding-top: 20px;
+  }
+
+  .service-page-style {
+    margin-top: 0px;
+  }
+
+  .fun-fact-grids .grid {
+    width: 150px !important;
+    margin: 0px 5px !important;
+    border-radius: 50%;
+  }
+
+  .fun-fact-grids i::before {
+    font-size: 1.3rem !important;
+  }
+
+  .fun-fact-grids h2 {
+    font-size: 1rem !important;
+  }
+
+  .fun-fact-grids p {
+    font-size: 0.8rem !important;
+  }
+
+} */
+.site-header {
+  position: fixed;
+  width: 100vw;
+  z-index: 500;
+  background: #fff;
+}
+
+
+
+#breadcum,
+.hero,
+.service-page-style {
+  margin-top: 100px !important;
+}
+
+.add-box-shadow {
+  box-shadow: 1px 5px 20px gray;
+}
+
+.section-padding {
+  padding-bottom: 0px;
+}
+
+.about-section-3 {
+  padding: 50px 0px;
+}
+
+@media (max-width:767px) {
+  .service-wrap {
+    padding: 20px 13px;
+  }
+
+  .pricing-section .row ul {
+    margin: 0 auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hx-team-img {
+    text-align: center;
+  }
+
+  .hx-team-img img {
+    width: 70%;
+
+  }
+
+  .hx-counter-icon .fi:before {
+    margin: 0;
+    font-size: 100px;
+  }
+
+  .fun-fact-section-s2 .fun-fact-grids .grid h2:before {
+    content: "";
+    position: absolute;
+    left: 42%;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #ed5217;
+    border-radius: 20px;
+  }
+
+  .pricing-section .nav-tabs li {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+  .site-header {
+    padding: 20px;
+    position: fixed;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .service-style-2 {
+    margin-bottom: 0;
+  }
+
+  .about-section-3 {
+    padding-top: 100px;
+  }
+
+  .pricing-section {
+    padding: 50px 0px;
+    background: none;
+  }
+
+  .fun-fact-section-s2 {
+    padding: 0px;
+  }
+}
